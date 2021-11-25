@@ -1,0 +1,21 @@
+{
+    "name": "anoru-color-theme",
+    "displayName": "Anoru Color Theme",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Anoru Color Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Anoru Color Theme-color-theme.json"
+            }
+        ]
+    }
+}
