@@ -23,7 +23,7 @@
     "debugToolBar.background": "#283039",
     "diffEditor.insertedTextBackground": "#50FA7B20",
     "diffEditor.insertedTextBorder": null,
-    "diffEditor.removedTextBackground": "#FF555550",
+    "diffEditor.removedTextBackground": "#FF676750",
     "diffEditor.removedTextBorder": null,
     "dropdown.background": "#343746",
     "dropdown.border": "#191A21",
@@ -39,7 +39,7 @@
     "editorGroupHeader.tabsBackground": "#283039",
     "editorGutter.addedBackground": "#50FA7B80",
     "editorGutter.background": null,
-    "editorGutter.deletedBackground": "#FF555580",
+    "editorGutter.deletedBackground": "#FF676780",
     "editorGutter.modifiedBackground": "#8BE9FD80",
     "editorHoverWidget.background": "#283039",
     "editorLineNumber.foreground": "#999999",
@@ -54,8 +54,8 @@
     "editorWidget.background": "#21222C",
     "focusBorder": "#283039",
     "foreground": "#F8F8F2",
-    "gitDecoration.conflictingResourceForeground": "#FFB86C",
-    "gitDecoration.deletedResourceForeground": "#FF5555",
+    "gitDecoration.conflictingResourceForeground": "#FAC863",
+    "gitDecoration.deletedResourceForeground": "#FF6767",
     "gitDecoration.ignoredResourceForeground": "#6272A4",
     "gitDecoration.modifiedResourceForeground": "#8BE9FD",
     "gitDecoration.untrackedResourceForeground": "#50FA7B",
@@ -70,7 +70,7 @@
     "list.activeSelectionBackground": "#44475A",
     "list.activeSelectionForeground": "#F8F8F2",
     "list.dropBackground": "#44475A",
-    "list.errorForeground": "#FF5555",
+    "list.errorForeground": "#FF6767",
     "list.focusBackground": "#44475A75",
     "list.focusForeground": null,
     "list.highlightForeground": "#8BE9FD",
@@ -78,7 +78,7 @@
     "list.hoverForeground": null,
     "list.inactiveSelectionBackground": "#44475A75",
     "list.inactiveSelectionForeground": null,
-    "list.warningForeground": "#FFB86C",
+    "list.warningForeground": "#FAC863",
     "notification.background": "#283039",
     "panel.background": "#283039",
     "panel.border": "#283039",
@@ -92,7 +92,7 @@
     "settings.dropdownBorder": "#191A21",
     "settings.dropdownForeground": "#F8F8F2",
     "settings.headerForeground": "#F8F8F2",
-    "settings.modifiedItemIndicator": "#FFB86C",
+    "settings.modifiedItemIndicator": "#FAC863",
     "settings.numberInputBackground": "#21222C",
     "settings.numberInputBorder": "#191A21",
     "settings.numberInputForeground": "#F8F8F2",
@@ -119,7 +119,7 @@
     "terminal.ansiCyan": "#8BE9FD",
     "terminal.ansiGreen": "#50FA7B",
     "terminal.ansiMagenta": "#FF79C6",
-    "terminal.ansiRed": "#FF5555",
+    "terminal.ansiRed": "#FF6767",
     "terminal.ansiWhite": "#F8F8F2",
     "terminal.ansiYellow": "#F1FA8C",
     "terminal.background": "#283039",
@@ -145,7 +145,9 @@
         "keyword",
         "storage.type.class",
         "keyword.operator.expression.keyof.tsx",
-        "keyword.operator.expression.typeof.tsx"
+        "keyword.operator.expression.typeof.tsx",
+        "keyword.operator.expression.keyof.ts",
+        "keyword.operator.expression.typeof.ts"
       ],
       "settings": {
         "foreground": "#B993B2"
@@ -184,8 +186,7 @@
       "scope": [
         "type",
         "support.type",
-        "support.type.property-name.json.comments",
-        "variable.other.readwrite.ts"
+        "support.type.property-name.json.comments"
       ],
       "settings": {
         "foreground": "#B0B5B9"
@@ -296,6 +297,10 @@
         "constant.numeric",
         "entity.other.attribute-name.tsx",
         "meta.tag.attributes.tsx",
+        "entity.other.attribute-name.ts",
+        "meta.tag.attributes.ts",
+        "entity.other.attribute-name.tsx",
+        "meta.tag.attributes.tsx",
         "entity.name.tag.css",
         "entity.other.attribute-name",
         "entity.other.attribute-name.html.vue"
@@ -308,7 +313,6 @@
       "scope": [
         "variable.parameter",
         "variable.other.constant",
-        "variable.other.readwrite",
         "meta.object-literal.key"
       ],
       "settings": {
