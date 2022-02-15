@@ -143,6 +143,7 @@
       "name": "keywords",
       "scope": [
         "keyword",
+        "keyword.operator",
         "storage.type.class",
         "keyword.operator.expression.keyof.tsx",
         "keyword.operator.expression.typeof.tsx",
@@ -331,13 +332,6 @@
       ],
       "settings": {
         "foreground": "#CDD3DE"
-      }
-    },
-    {
-      "name": "Operator",
-      "scope": ["keyword.operator"],
-      "settings": {
-        "foreground": "#d7deea"
       }
     },
     {
